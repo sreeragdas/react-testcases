@@ -12,7 +12,7 @@ function Counter({props}){
 
         <div>
             
-            <div>{count}</div>
+            <div data-testid="count">{count}</div>
          
         <button onClick={increment} > Add </button>
         
